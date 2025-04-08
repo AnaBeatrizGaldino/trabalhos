@@ -1,0 +1,91 @@
+/* Configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f5e6; /* Verde claro */
+    color: #2e4d2e; /* Verde escuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+#header {
+    background-color: #4caf50; /* Verde vibrante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Seções */
+div {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Importância da conservação */
+#importancia {
+    background-color: #c8e6c9; /* Verde claro */
+}
+
+/* Programas de preservação */
+#programas {
+    background-color: #a5d6a7; /* Verde médio */
+}
+
+/* Cuidados com os animais */
+#cuidados {
+    background-color: #81c784; /* Verde médio-escuro */
+}
+
+/* Como ajudar */
+#como-ajudar {
+    background-color: #66bb6a; /* Verde escuro */
+    color: white;
+}
+
+/* Links */
+a {
+    color: #2e7d32; /* Verde escuro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1b5e20; /* Verde mais escuro */
+}
+
+/* Estilo das imagens */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilização da lojinha */
+ul {
+    background-color: #4caf50; /* Verde vibrante */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul h5 {
+    margin: 0;
+}
+
+ul a {
+    color: white;
+    background-color: #2e7d32; /* Verde escuro */
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+ul a:hover {
+    background-color: #1b5e20; /* Verde mais escuro */
+}

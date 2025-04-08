@@ -1,0 +1,96 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2e0; /* Verde claro suave */
+    color: #2d572c; /* Verde escuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+#header {
+    background-color: #4caf50; /* Verde médio */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegação */
+#nav {
+    background-color: #388e3c; /* Verde mais escuro */
+    padding: 10px;
+    text-align: center;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#nav li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Conteúdo principal */
+#content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilizando cada seção */
+#pelucias, #camisetas, #acessorios {
+    background-color: #c8e6c9; /* Verde mais suave */
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Produtos */
+.produto {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #a5d6a7; /* Verde intermediário */
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.produto img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.produto p {
+    margin: 5px 0;
+}
+
+/* Link de doações */
+ul {
+    text-align: center;
+    padding: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    color: #1b5e20; /* Verde bem escuro */
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #4caf50; /* Verde médio */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1b5e20; /* Verde mais escuro */
+    text-decoration: underline;
+}

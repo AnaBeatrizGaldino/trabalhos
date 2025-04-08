@@ -1,0 +1,71 @@
+/* Definição geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2e9; /* Verde claro para fundo */
+    color: #2e7d32; /* Verde escuro para o texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+#header {
+    background-color: #388e3c; /* Verde médio */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegação */
+#nav {
+    background-color: #66bb6a; /* Verde médio */
+    padding: 15px;
+}
+
+#nav h2 {
+    color: white;
+}
+
+#nav li {
+    list-style: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Seções dos animais */
+div {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#mamiferos, #aves, #repteis, #anfibios, #peixes {
+    background-color: #a5d6a7; /* Verde mais suave */
+    border: 2px solid #2e7d32;
+}
+
+/* Imagens */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 3px solid #388e3c;
+}
+
+/* Link de visitas */
+ul {
+    text-align: center;
+    padding: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    background-color: #2e7d32; /* Verde escuro */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+ul a:hover {
+    background-color: #1b5e20; /* Verde mais escuro ao passar o mouse */
+}

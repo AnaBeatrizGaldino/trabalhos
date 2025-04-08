@@ -1,0 +1,71 @@
+/* Configuração geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f4ea; /* Verde claro de fundo */
+    color: #2d572c; /* Verde escuro para o texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #4caf50; /* Verde médio */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Seção de contato */
+#contato, #redes-sociais {
+    background-color: #dff0d8; /* Verde suave */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando os itens de contato */
+.contato-item, .rede-social {
+    background-color: #a5d6a7; /* Verde médio */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+    color: #1b5e20; /* Verde escuro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #66bb6a; /* Verde mais claro ao passar o mouse */
+    text-decoration: underline;
+}
+
+/* Botão de agendamento */
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+ul h5 {
+    color: #2d572c;
+}
+
+ul a {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+ul a:hover {
+    background-color: #388e3c; /* Tom de verde mais escuro */
+}

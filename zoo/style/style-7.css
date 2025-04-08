@@ -1,0 +1,68 @@
+/* Configuração geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Verde claro */
+    color: #2e7d32; /* Verde escuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do cabeçalho */
+#header {
+    background-color: #66bb6a; /* Verde médio */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container principal do conteúdo */
+#conteudo {
+    padding: 20px;
+}
+
+/* Estilização das seções */
+.secao {
+    background-color: #c8e6c9; /* Verde bem claro */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #2e7d32; /* Destaque na lateral esquerda */
+    border-radius: 5px;
+}
+
+/* Imagens dentro das seções */
+.secao img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Vídeos responsivos */
+iframe {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 887px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* Link de conservação */
+ul {
+    text-align: center;
+    padding: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+ul a:hover {
+    background-color: #1b5e20; /* Verde ainda mais escuro ao passar o mouse */
+}

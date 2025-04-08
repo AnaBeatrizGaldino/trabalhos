@@ -1,0 +1,52 @@
+/* Estilização geral do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7e6; /* Verde claro */
+    color: #2d572c; /* Verde escuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50; /* Verde médio */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para cada seção */
+div {
+    background-color: #c8e6c9; /* Verde suave */
+    border-left: 5px solid #2d572c; /* Verde escuro */
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Links */
+a {
+    color: #1b5e20; /* Verde forte */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4CAF50; /* Verde médio */
+    text-decoration: underline;
+}
+
+/* Lista */
+ul {
+    background-color: #a5d6a7; /* Verde pastel */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #1b5e20; /* Verde escuro */
+}
+
+h5 {
+    color: #2d572c; /* Verde intermediário */
+}
