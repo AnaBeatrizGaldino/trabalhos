@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Restaurante Sabor & Arte</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center p-4">
+        <img src="imagens/Sabor & Arte.png" alt="Logo Restaurante" class="mb-2" width="150">
+        <h1>Cadastro de Cliente Fixo</h1>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Início</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="cardapio.html">Cardápio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reservas.html">Reservas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="depoimentos.html">Depoimentos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <h2 class="text-center">Cadastro de Cliente Fixo</h2>
+        <p class="text-center">Torne-se um cliente fixo do Restaurante Sabor & Arte e aproveite benefícios exclusivos.</p>
+        
+        <form class="mt-4">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="cpf" class="form-label">CPF</label>
+                <input type="text" class="form-control" id="cpf" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="telefone" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+        
+        <h3 class="mt-5 text-center text-success">Planos Exclusivos</h3>
+        <p class="text-center">Escolha o plano que melhor atende às suas necessidades e aproveite vantagens incríveis!</p>
+        
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Plano Mensal</h5>
+                        <p class="card-text">Acesso a eventos, descontos especiais no buffet e prioridade nas reservas.</p>
+                        <p class="text-danger">R$ 199,90/mês</p>
+                        <button class="btn btn-success">Assinar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Plano Anual</h5>
+                        <p class="card-text">Benefícios do plano mensal com vantagens adicionais e brindes exclusivos.</p>
+                        <p class="text-danger">R$ 1.999,90/ano</p>
+                        <button class="btn btn-success">Assinar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Plano Premium</h5>
+                        <p class="card-text">Inclui acesso VIP a eventos, reservas prioritárias, um jantar especial por mês , ingressos para shows exclusivos com direito a degustação de pratos fora do cardápio.</p>
+                        <p class="text-danger">R$ 2.999,90/ano</p>
+                        <button class="btn btn-success">Assinar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h3 class="mt-5 text-center text-primary">Benefícios Exclusivos</h3>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">✔️ Descontos especiais em pratos e bebidas</li>
+            <li class="list-group-item">✔️ Acesso antecipado a eventos e jantares temáticos</li>
+            <li class="list-group-item">✔️ Buffet especial para membros fixos</li>
+            <li class="list-group-item">✔️ Prioridade na reserva para aniversários e eventos</li>
+            <li class="list-group-item">✔️ Atendimento personalizado e brindes exclusivos</li>
+            <li class="list-group-item">✔️ Ingressos para shows exclusivos</li>
+            <li class="list-group-item">✔️ Convites VIP para degustações e workshops gastronômicos</li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
